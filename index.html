@@ -1,79 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
+    <title>Ardy Institute of Munich</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aim,Berlin</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Ardy Institute of Munich</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Institutes</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Admission
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Material</a></li>
-                  <li><a class="dropdown-item" href="#">Syllabus</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Result</a></li>
-                </ul>
-            </li>
-            </ul>
-          </div>
-        </div>
+     <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">Ardy Institute of Munich</div>
+      <div class="spacer"></div>
+      <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#admission" class="admission-tab">Admission</a>
+        <a href="./pages/result.html" class="result-tab">Result</a>
       </nav>
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Anbau_f%C3%BCr_das_Deutsche_Forschungsinstitut_f%C3%BCr_%C3%B6ffentliche_Verwaltung_Speyer.JPG" class="d-block w-100">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Ardy Institute of Munich</h5>
-              <p>~ support for students with practical and objective knowledge.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://www.e-architect.com/wp-content/uploads/2012/08/primary-school-niederheide-building-brandenburg-am-1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Ardy Institute of Berlin</h5>
-              <p>Support composite practical knowledge.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://www.arch2o.com/wp-content/uploads/2015/11/Arch2O-top-10-architecture-schools-in-germany-1.jpeg" class="d-block w-100">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Best Institute </h5>
-              <p>Better than IIT and NIT.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    </header>
+    <main>
+      <section id="admission">
+        <h2>Admission</h2>
+        <p>To apply for admission to Ardy Institute of Munich, please follow these steps:</p>
+        <ol>
+          <li>Visit our website and click on the "Admission" tab.</li>
+          <li>Create an account and complete the online application form.</li>
+          <li>Upload all required documents, including transcripts, test scores, and a statement of purpose.</li>
+          <li>Pay the application fee.</li>
+          <li>Submit your application and wait for a decision.</li>
+        </ol>
+        <p>For more information, please contact our admissions office at <a href="mailto:admissions@ardy-institute.com">admissions@ardy-institute.com</a>.</p>
+      </section>
+      <section id="result">
+        <h2>Result</h2>
+        <p>To check your result, please follow these steps:</p>
+        <ol>
+          <li>Visit our website and click on the "Result" tab.</li>
+          <li>Enter your admit no.</li>
+          <li>Click on the "Submit" button.</li>
+          <li>View your result and print a copy for your records.</li>
+        </ol>
+        <p>If you have any questions about your result, please contact our registrar's office at <a href="mailto:registrar@ardy-institute.com">registrar@ardy-institute.com</a>.</p>
+      </section>
+    </main>
+  </head>
+  <body>
+    <main>
+      <h2>Our Programs</h2>
+      <p>Our undergraduate programs include:</p>
+      <ul>
+        <li>Bachelor of Science in Computer Science</li>
+        <li>Bachelor of Science in Electrical Engineering</li>
+        <li>Bachelor of Science in Mechanical Engineering</li>
+        <li>Bachelor of Arts in Business Administration</li>
+      </ul>
+      <p>Our School programs include:</p>
+      <ul>
+        <li>Grades 6 to 8 - (non-operative)</li>
+        <li>Grades 9 to 10</li>
+        <li>grades 11,12 - Arts,Science,Commerce</li>
+      </ul>
+      
+      <h2>Important Dates</h2>
+      <ul>
+        <li>Application Start Date: February 1, 2023</li>
+        <li>Application Last Date: March 31, 2023</li>
+        <li>Exam Dates: April 8-21, 2023</li>
+      </ul>
+      
+      <h2>Eligibility</h2>
+      <p>Candidates must have a high school diploma or equivalent with a minimum GPA of 3.0 (out of 4.0) to be eligible for admission to our undergraduate programs.</p>
+      <p>Candidates must have a bachelor's degree in a relevant field with a minimum GPA of 3.2 (out of 4.0) to be eligible for admission to our graduate programs.</p>
+      
+      <h2>Syllabus</h2>
+      <p>The syllabus for each program varies depending on the field of study. Please refer to our website for program-specific syllabus information.</p>
+  </body>
 </html>
