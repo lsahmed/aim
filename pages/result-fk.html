@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ardy Institute of Munich - Result</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /* Add some basic styling */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      header {
+        background-color: #333;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+      }
+      
+      nav {
+        display: flex;
+        align-items: center;
+      }
+      
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin-right: 1rem;
+        padding: 0.5rem;
+        border-radius: 4px;
+        transition: background-color 0.2s ease-in-out;
+      }
+      
+      nav a:hover {
+        background-color: #555;
+      }
+      
+      nav a.active {
+        background-color: #555;
+        color: white;
+      }
+      
+      .logo {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      
+      .spacer {
+        flex-grow: 1;
+      }
+      
+      /* Style the search form */
+      form {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+      }
+      
+      label {
+        margin-right: 1rem;
+      }
+      
+      input[type="text"] {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 0.5rem;
+        width: 50%;
+      }
+      
+      input[type="submit"] {
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #555;
+      }
+      
+      /* Style the result table */
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      th, td {
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+      }
+      
+      th {
+        background-color: #f5f5f5;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo" href="/index.html">Ardy Institute of Munich</div>
+      <div class="spacer"></div>
+      <nav>
+        <a href="/index.html" class="active">Home</a>
+        <a href="#admission">Admission</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Result</h2>
+      <form action="#">
+        <label for="admit-no">Enter Admit Number:</label>
+        <input type="text" id="admit-no" name="admit-no">
+        <input type="submit" value="Search">
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>Admit Number</th>
+            <th>Name</th>
+            <th>Program</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>79283</td>
+            <td>Ilsa </td>
+            <td>Aim Entrance Test (AET)</td>
+            <td>----</td>
+          </tr>
